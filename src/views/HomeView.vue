@@ -6,7 +6,8 @@
   <NavBar/>
   <v-container fluid>
     <!-- INTRO -->
-    <div class="zero">
+    <div class="first" style="padding-top :7%">
+
       <h4 class="red--text">Hello Im Rimbadi</h4>
       <h1 class="white--text">Web Developer</h1>
       <p class="grey--text"> 
@@ -19,10 +20,48 @@
     </div>
       <!-- INTRO -->
 
+
+      <!-- About -->
+      <div class="first" id="about">
+        <v-icon left></v-icon>
+      </div>
+      <!-- About -->
+
+      <!-- SKILL -->
+      <v-row>
+        
+        <v-col cols="12" class="padd">
+          <div class="first" id="skill">
+            <h1 class="white--text">SKILL</h1>
+            <v-col cols="12">
+          <div class="child" id="java">
+            <v-icon color="#A7121D" x-large class="ml-3">mdi-language-java</v-icon>
+            <h1 class="white--text">Java</h1>
+          </div>
+          <div class="child" id="sql">
+            <v-icon color="#A7121D" x-large class="ml-3">mdi-database-search</v-icon>
+            <h1 class="white--text">sql</h1>
+          </div>
+          <div class="child" id="vue">
+            <v-icon color="#A7121D" x-large class="ml-3">mdi-vuejs</v-icon>
+            <h1 class="white--text">Vuejs</h1>
+          </div>
+          <div class="child" id="bootsratp">
+            <v-icon color="#A7121D" x-large class="ml-3">mdi-leaf</v-icon>
+            <h1 class="white--text">Spring Boot</h1>
+          </div>
+            </v-col>
+          </div>
+        </v-col>
+        
+      </v-row>
+      <!-- SKILL -->
+
       <!-- PROJECT -->
       <v-row>
         <v-col cols="12" class="padd">
           <div class="first" id="project">
+            <h1 class="white--text">Projects</h1>
             <v-col cols="12">
               <div id="ecommerce" class="child">
                 <v-icon color="#A7121D" x-large class="ml-3">mdi-cart-variant</v-icon>
@@ -59,33 +98,7 @@
       <!-- PROJECT -->
 
 
-      <!-- SKILL -->
-      <v-row>
-        <v-col cols="12" class="padd">
-          <div class="first" id="skill">
-            <v-col cols="12">
-          <div class="child" id="java">
-            <v-icon color="#A7121D" x-large class="ml-3">mdi-language-java</v-icon>
-            <h1 class="white--text">Java</h1>
-          </div>
-          <div class="child" id="sql">
-            <v-icon color="#A7121D" x-large class="ml-3">mdi-database-search</v-icon>
-            <h1 class="white--text">sql</h1>
-          </div>
-          <div class="child" id="vue">
-            <v-icon color="#A7121D" x-large class="ml-3">mdi-vuejs</v-icon>
-            <h1 class="white--text">Vuejs</h1>
-          </div>
-          <div class="child" id="bootsratp">
-            <v-icon color="#A7121D" x-large class="ml-3">mdi-leaf</v-icon>
-            <h1 class="white--text">Spring Boot</h1>
-          </div>
-            </v-col>
-          </div>
-        </v-col>
-        
-      </v-row>
-      <!-- SKILL -->
+      
   </v-container>
   
   </v-app>
@@ -117,16 +130,15 @@ import NavBar from '../components/NavBar.vue';
 }
 
 .zero{
-  width: 100%;
-  height: 610px;
-  text-align: center;
-  padding: 200px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 30%;
 }
 .first{
   width: 100%;
   height: 610px;
   text-align: center;
-  padding: 2rem 2rem;
+  padding: 1%;
 }
 
 .second{

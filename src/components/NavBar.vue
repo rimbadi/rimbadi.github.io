@@ -1,7 +1,7 @@
 <template>
-<v-app-bar app color="#111111" dark flat class="px-8">
+<v-app-bar app color="#111111" dark flat class="Navbar px-8">
     <v-btn icon>
-        <v-icon color="#A7121D"> fas fa-dragon</v-icon>
+        <v-icon color="#A7121D">fas fa-dragon</v-icon>
     </v-btn>
     <v-spacer></v-spacer>
     <v-btn> Home </v-btn>
@@ -23,5 +23,7 @@ export default{
 </script>
 
 <style>
-
+.Navbar{
+    position: absolute;
+}
 </style>
