@@ -1,13 +1,14 @@
 <template>
-<v-app-bar app color="#111111" dark flat class="Navbar px-8">
-    <v-btn icon>
-        <v-icon color="#A7121D">fas fa-dragon</v-icon>
+<v-app-bar app :style="{background: $vuetify.theme.themes.light.background}" dark flat class="Navbar px-8">
+    <v-btn color="#111111">
+        <a color="white">Rim</a>
+        <a color="#A7121D">badi</a>
     </v-btn>
     <v-spacer></v-spacer>
-    <v-btn> Home </v-btn>
-    <v-btn> Project </v-btn>
-    <v-btn> About </v-btn>
-    <v-btn> Contact </v-btn>
+    <v-btn color="#111111"> Home </v-btn>
+    <v-btn color="#111111"> Project </v-btn>
+    <v-btn color="#111111"> About </v-btn>
+    <v-btn color="#111111"> Contact </v-btn>
 </v-app-bar>
 </template>
 
